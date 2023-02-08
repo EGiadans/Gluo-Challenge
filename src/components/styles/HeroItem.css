@@ -24,27 +24,13 @@
 .Hero__name {
     font-size: 20px;
     font-weight: bold;
-    /*margin-top: 16px;*/
     margin-bottom: 7px;
 }
 .Hero__details {
     font-size: 16px;
     display: flex;
     flex-direction: row;
-    /*margin-bottom: 16px;*/
 }
-
-/*.Hero__button {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    background-color: #CE0404;*/
-/*    border-color: #CE0404;*/
-/*    margin-left: auto;*/
-/*    float: right;*/
-/*    width: 82px;*/
-/*    height: 82px;*/
-/*}*/
 
 .Hero__button {
     font-size: 36px;
@@ -58,4 +44,8 @@
     float: right;
     width: 82px;
     height: 82px;
+}
+
+.Hero__button:hover {
+    cursor: pointer;
 }

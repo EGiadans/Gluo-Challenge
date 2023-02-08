@@ -6,17 +6,17 @@
     justify-content: center;
     margin-top: auto;
     margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
-/*.Pagination__list {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
-
 .List__element {
-    text-align: center;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
     width: 30px;
     height: 30px;
+    margin-right: 25px;
 }
 
 .List__element:hover {
@@ -26,4 +26,16 @@
 .List__element--active {
     background-color: red;
     border-radius: 5px;
+}
+
+.List__paginator--left {
+    margin-right: 35px;
+}
+
+.List__paginator--right {
+    margin-left: 10px;
+}
+
+.List__paginator:hover{
+    cursor: pointer;
 }

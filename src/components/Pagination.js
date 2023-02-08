@@ -8,22 +8,26 @@ const ListElement = ({ number, isActive, onClick }) => {
     );
 }
 
-const Paginate = ({ heroesPerPage, totalHeroes, paginate, currentPage, previousPage, nextPage }) => {
+const Pagination = ({ heroesPerPage, totalHeroes, paginate, currentPage, previousPage, nextPage }) => {
     const pageNumbers = [];
-
     for (let i = 1; i <= Math.ceil(totalHeroes / heroesPerPage); i++) {
         pageNumbers.push(i);
     }
 
     return (
         <div className="Pagination">
-            <div onClick={previousPage}>&lt;</div>
+            <div className="List__paginator List__paginator--left" onClick={previousPage}>&lt;</div>
             {pageNumbers.map(number => (
-                <ListElement key={number} isActive={currentPage === number} number={number} onClick={() => paginate(number)} />
+                <ListElement
+                    key={number}
+                    isActive={currentPage === number}
+                    number={number}
+                    onClick={() => paginate(number)}
+                />
             ))}
-            <div onClick={nextPage}>&gt;</div>
+            <div className="List__paginator List__paginator--right" onClick={nextPage}>&gt;</div>
         </div>
     );
 };
 
-export default Paginate;
+export default Pagination;
