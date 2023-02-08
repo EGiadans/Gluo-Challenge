@@ -1,0 +1,8 @@
+.ListHeader {
+    color: white;
+    margin-left: 97px;
+}
+
+.ListHeader__text {
+    font-size: 27px;
+}

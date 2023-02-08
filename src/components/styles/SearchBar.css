@@ -1,0 +1,76 @@
+/*.wrapper {*/
+/*    position:relative;*/
+/*}*/
+
+/*.icon {*/
+/*    height: 1.5rem;*/
+/*    width: 1.5rem;*/
+/*    background-color: red;*/
+/*    padding: 4px;*/
+/*    position: absolute;*/
+/*    box-sizing:border-box;*/
+/*    top:50%;*/
+/*    left:2px;*/
+/*    transform: translateY(-50%);*/
+/*}*/
+
+/*.input {*/
+/*    height: 50px;*/
+/*    box-sizing:border-box;*/
+/*    padding-left: 1.5rem;*/
+/*}*/
+
+.Searchbar__button {
+    margin-left: auto;
+    padding: 18px 32px 19px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #CE0404;
+    border-color: #CE0404;
+    border-radius: 0 4px 4px 0;
+    /*margin-left: auto;*/
+    /*float: right;*/
+}
+
+.Searchbar {
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+    /*width: 30%;*/
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0 4px 4px 0;
+    /*left: auto;*/
+}
+
+.Searchbar__icon {
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.Searchbar__input {
+    height: 100%;
+    border: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.Searchbar__input:focus {
+    border: none;
+    /*border-bottom: 1px dashed #D9FFA9;*/
+    outline: none;
+
+}
+
+.Searchbar__cancel {
+    margin-right: 16px;
+    font-size: 36px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

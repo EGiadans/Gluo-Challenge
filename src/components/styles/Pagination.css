@@ -1,0 +1,29 @@
+.Pagination {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 50px;
+}
+
+/*.Pagination__list {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.List__element {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+.List__element:hover {
+    cursor: pointer;
+}
+
+.List__element--active {
+    background-color: red;
+    border-radius: 5px;
+}
